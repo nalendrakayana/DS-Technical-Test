@@ -1,0 +1,50 @@
+{
+    "intercept": -0.9944727870786605,
+    "coefficients": {
+        "age": -0.21597387397485757,
+        "monthly_income": -0.32243520850382784,
+        "loan_amount": 1.5200090870097962,
+        "previous_defaults": 0.4153235193526423,
+        "credit_score": -2.1993194609229794,
+        "dfi_ratio": 0.1397770651695299,
+        "loan_to_score_ratio": -0.7553436364156918,
+        "age_x_credit_score": 1.2216460290309314,
+        "is_low_income": 0.14622453888262915,
+        "age_group_Muda (18-30)": 0.2800952190812186,
+        "age_group_Dewasa (31-45)": 0.5431980954373691,
+        "age_group_Paruh Baya (46-60)": 0.2800952190812186,
+        "age_group_Senior (60+)": 0.0
+    },
+    "scaling_params": {
+        "mean": {
+            "age": 40.328541666666666,
+            "monthly_income": 11435918.66,
+            "loan_amount": 8009930.70875,
+            "previous_defaults": 0.24479166666666666,
+            "credit_score": 576.4972916666667,
+            "dfi_ratio": 0.9021786474378161,
+            "loan_to_score_ratio": 15052.927216721768,
+            "age_x_credit_score": 23262.866666666665,
+            "is_low_income": 0.24625,
+            "age_group_Muda (18-30)": 0.22354166666666667,
+            "age_group_Dewasa (31-45)": 0.374375,
+            "age_group_Paruh Baya (46-60)": 0.22354166666666667,
+            "age_group_Senior (60+)": 0.0
+        },
+        "scale": {
+            "age": 11.33073704751507,
+            "monthly_income": 4911803.0277066715,
+            "loan_amount": 4067276.530233861,
+            "previous_defaults": 0.4884861375691456,
+            "credit_score": 158.48353487349488,
+            "dfi_ratio": 0.7475227463961569,
+            "loan_to_score_ratio": 9066.526085262729,
+            "age_x_credit_score": 9331.21729686909,
+            "is_low_income": 0.43082587840100783,
+            "age_group_Muda (18-30)": 0.4166182784402955,
+            "age_group_Dewasa (31-45)": 0.48396111349466914,
+            "age_group_Paruh Baya (46-60)": 0.4166182784402955,
+            "age_group_Senior (60+)": 1.0
+        }
+    }
+}
