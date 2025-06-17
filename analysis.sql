@@ -7,6 +7,8 @@
 -- 	decoy_noise NUMERIC
 -- );
 
+-- Doing this task in pgAdmin, that's why there is no syntax to read the csv file
+
 -- Ambil tanggal order terakhir untuk perhitungan recency
 SELECT MAX(order_date) AS last_order_date
 FROM e_commerce_transaction;
